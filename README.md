@@ -1,13 +1,13 @@
 # React + Vite + Tailwind CSS Starter
 
-A modern React starter template featuring React 18, Vite, TypeScript, and Tailwind CSS v4.
+A modern React starter template featuring React 18, Vite, JavaScript, and Tailwind CSS v4.
 
 ## Features
 
 - ⚡️ [React 18](https://reactjs.org/)
 - ⚡️ [Vite](https://vitejs.dev/)
 - 🎨 [Tailwind CSS v4](https://tailwindcss.com/)
-- 📝 [TypeScript](https://www.typescriptlang.org/)
+- 📝 [JavaScript ES6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - 🔍 ESLint
 - 🧩 Component-based architecture
 

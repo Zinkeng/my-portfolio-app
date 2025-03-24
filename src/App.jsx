@@ -37,7 +37,7 @@ function App() {
         <p className="text-slate-600">
           Edit{' '}
           <code className="bg-slate-100 p-1 rounded text-sm font-mono">
-            src/App.tsx
+            src/App.jsx
           </code>{' '}
           and save to test HMR
         </p>
