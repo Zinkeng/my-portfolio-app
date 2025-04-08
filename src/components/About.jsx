@@ -1,23 +1,24 @@
-import React from 'react';
-import devphoto from '../assets/Ajong.jpeg';
+import React from "react";
+import devphoto from "../assets/Ajong.jpeg";
 
 const subheadings = {
-  Name: 'Ajongafac Zinkeng Mbetem',
-  Address: 'Yaounde, Cameroon',
-  Phone: '+237 682743056',
-  Email: 'ajongafaczinkeng@gmail.com',
-  Github: 'https://github.com/Zinkeng',
+  Name: "Ajongafac Zinkeng Mbetem",
+  Address: "Yaounde, Cameroon",
+  Phone: "+237 682743056",
+  Email: "ajongafaczinkeng@gmail.com",
+  Github: "https://github.com/Zinkeng",
 };
 
 function About() {
   return (
     <>
-      <div className="hero flex justify-between items-center gap-16 bg-gray-900 px-28 py-20 h-[90vh]">
+      <div className="hero flex justify-between items-center gap-16 bg-gray-900 px-5 lg:px-28 py-20 min-h-[650px]">
         <div className="hero-2 w-1/2 h-full">
           <img
             className="text-white h-full w-full object-cover object-top rounded-xl"
             src={devphoto}
-            alt="Developer's photo"></img>
+            alt="Developer's photo"
+          ></img>
         </div>
 
         <div className="hero-1 h-full text-white w-1/2 flex flex-col justify-between">
@@ -27,7 +28,7 @@ function About() {
               <h1 className="text-4xl font-bold">About Me</h1> <br />
               <hr className="w-26 text-pink-400" />
             </div>
-            <p className="text-justify">
+            <p className="text-justify text-[12px] lg:text-[14px]">
               My name is Ajongafac Zinkeng Mbetem. I am a Software engineer,
               UI/UX Designer and a Graphic Designer, based in Yaounde, Cameroon.
               I’m very passionate and dedicated to my work. With over two years
@@ -37,26 +38,28 @@ function About() {
               projects that brings about innovation in the Cameroon tech space
               and beyond.
             </p>
-            <div className="my-details text-white flex flex-col gap-2 mt-5">
+            <div className="my-details text-white flex flex-col gap-2 mt-5 text-[12px] lg:text-[14px]">
               <span>Name: {subheadings.Name}</span>
               <span>Address: {subheadings.Address}</span>
               <span>Phone: {subheadings.Phone}</span>
               <span>
-                Email:{' '}
+                Email:{" "}
                 <a
                   href={`mailto:${subheadings.Email}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-pink-400">
+                  className="text-pink-400"
+                >
                   {subheadings.Email}
                 </a>
               </span>
               <span>
-                Github:{' '}
+                Github:{" "}
                 <a
                   href={subheadings.Github}
                   target="_blank"
-                  className="text-pink-400">
+                  className="text-pink-400"
+                >
                   {subheadings.Github}
                 </a>
               </span>

@@ -1,5 +1,6 @@
 import React from "react";
-import devPhoto from '../assets/Ajong.jpeg'
+import devPhoto from '../assets/Ajong.jpeg';
+import {FaWhatsapp, FaTwitter, FaInstagram, FaMailBulk, FaFacebook} from 'react-icons/fa';
 
 function HeroSection() {
   return (
@@ -22,6 +23,13 @@ function HeroSection() {
           user-centric interfaces, and bringing brands to life with stunning
           visuals.
         </p>
+         <div className="flex mt-3">
+              <FaWhatsapp size={23} color="#fb64b6" className="m-2"/>
+              <FaTwitter size={23} color="#fb64b6" className="m-2"/>
+              <FaFacebook size={23} color="#fb64b6" className="m-2"/>
+              <FaInstagram size={23} color="#fb64b6" className="m-2"/>
+              <FaMailBulk size={23} color="#fb64b6" className="m-2"/>
+                  </div>
       </div>
 
       <div className="hero-2 b-0 w-[40%] h-full">

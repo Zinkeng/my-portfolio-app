@@ -44,11 +44,11 @@ function Navbar() {
         </ul>
       </div>
       <div className="nav-2 cursor-pointer pr-28">
-        <ul className="flex top-0  ">
+        <ul className="flex top-0">
           {navItems.map((item, index) => {
             return (
-              <li className="p-4 ">
-                <a className="font-medium hover:text-red-500 " href={item.link}>
+              <li className="p-4" key={index}>
+                <a className="font-medium hover:text-pink-400 hover:border-b-2 hover:border-b-pink-400 active:text-pink-400 active:border-b-2 active:border-b-pink-400 " href={item.link}>
                   {item.title}
                 </a>
               </li>
