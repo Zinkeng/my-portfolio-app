@@ -1,12 +1,12 @@
 import { IconBase } from "react-icons";
-import { FaFax, FaMobile } from "react-icons/fa";
+import { FaFax, FaMobile, FaCode, FaDev } from "react-icons/fa";
 import { FaFaceFlushed } from "react-icons/fa6";
 
 export const list =[
     {
         title: "Frontend Web Developer",
         description: "Implement  front-end  web applications",
-        icon: FaFaceFlushed
+        icon: FaCode
     },
 
     {
@@ -18,7 +18,7 @@ export const list =[
     {
         title: "UI/UX Design",
         description: "Design user interfaces for both web and mobile applications",
-        icon: FaFax
+        icon: FaDev
     },
 
     {
