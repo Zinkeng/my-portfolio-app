@@ -15,7 +15,7 @@ function Services() {
           {list.map((item, index) => {
             const Icon = item.icon; // Create a variable for the component
             return (
-              <div key={index} className="flex flex-col border-pink-400 border-2 p-4 ml-0 mr-12 m-4 w-56 gap-4 h-56 rounded-lg text-white">
+              <div key={index} className="flex flex-col border-pink-400 border-2 p-4 ml-0 mr-12 m-4 w-56 gap-4 h-70 rounded-lg text-white">
                  <div className="flex justify-center w-full">
                   <Icon size={40} color="#EC4899" /> 
                 </div> {/* Render it as a component */}
