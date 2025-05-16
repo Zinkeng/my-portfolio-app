@@ -15,14 +15,16 @@ function Services() {
           {list.map((item, index) => {
             const Icon = item.icon; // Create a variable for the component
             return (
-              <div key={index} className="flex flex-col border-pink-400 border-2 p-4 ml-0 mr-12 m-4 w-56 gap-4 h-56 text-white">
-                <Icon size={24} color="white" /> {/* Render it as a component */}
+              <div key={index} className="flex flex-col border-pink-400 border-2 p-4 ml-0 mr-12 m-4 w-56 gap-4 h-56 rounded-lg text-white">
+                 <div className="flex justify-center w-full">
+                  <Icon size={40} color="#EC4899" /> 
+                </div> {/* Render it as a component */}
                 <h1 className="text-bold text-center">{item.title}</h1>
 
                 <p>{item.description}</p>
-                {/* <button className="btn align-middle text-center text-white mt-4 shadow-lg shadow-pink-500 rounded-lg p-3 border-t hover:shadow-2xl hover:shadow-pink-500 hover:border-pink-500">
-              Show More
-            </button> */}
+                <button className="btn align-middle text-center text-white  rounded-lg p-2 border hover:border-pink-500">
+              Click to see my work
+            </button> 
               </div>
             );
           })}
