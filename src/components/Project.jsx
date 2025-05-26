@@ -7,7 +7,7 @@ function Project() {
     <div className="bg-black pl-28 flex justify-between align-middle items-center gap-16 px-5 lg:px-28  min-h-[400px]">
       <div className="text">
         <h1 className="text-white text-7xl font-extrabold">
-          Let's talk about your Project
+          Which of my Services do you need?
         </h1> <br/>
         <p className="text-white">
           Are you in need of my development or my design skills? Just contact me
