@@ -65,11 +65,12 @@ function Contact (){
                  <h1 className="text-white text-5xl font-extrabold">
           Let's talk about your project
         </h1>
-        <div className="message">
+        <div className="message h-full bg-black">
             <form action="" className="ml-4 flex flex-col">
-            <p className="font-bold">Leave a Message...</p>
-                <input type="E-mail" className=" mt-4 h-8 bg-gray-600 rounded-sm w-80 " placeholder="Please enter your email" /> <br/>
-                <input type="text" className="h-20 rounded-sm bg-gray-600 " placeholder="How can we help you?" />
+            <p className="font-bold"></p>
+                <input type="E-mail" className="mt-4 h-8 bg-white rounded-xl w-80 text-pink-700" placeholder="Name" /> <br/>
+                <input type="E-mail" className="mt-4 h-8 bg-white rounded-xl w-80 text-pink-700" placeholder="E-mail" /> <br/>
+                <input type="text" className="h-20 rounded-sm bg-white text-pink-700 " placeholder="Comment or Message" />
                 <button className="btn text-center font-bold bg-pink-400 text-white shadow-lg rounded-lg h-8 w-25 mt-3 ">
               Submit
             </button>
