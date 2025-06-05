@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import Footer from '../components/footer';
 import { FaInbox, FaPhone, FaLocationPin } from 'react-icons/fa6';
 import devphoto from "../assets/Ajong.jpeg";
 
@@ -43,13 +44,10 @@ function Contact (){
 
     </div>
 
-
-    <h1>I am the contact page</h1>
-
-      <div className="hero flex justify-between items-center gap-16 bg-gray-900 px-5 lg:px-28  min-h-[650px]">
+      <div className="hero flex justify-between items-center gap-16 bg-gray-910 px-5 lg:px-28  min-h-[650px]">
             <div className="hero-2 w-1/2 h-full">
               <img
-                className="text-white h-full w-full object-cover object-top rounded-xl"
+                className="text-white h-full w-full object-cover object-top rounded-xl mb-15 mt-15"
                 src={devphoto}
                 alt="Developer's photo"
               ></img>
@@ -77,10 +75,12 @@ function Contact (){
             </form>
         </div>
               </div>
-              <div className="flex justify-start items-start">
+              <div className="flex justify-start items-start mb-15">
               </div>
             </div>
+
           </div>
+          <Footer />
 </div>
     </>
     )
